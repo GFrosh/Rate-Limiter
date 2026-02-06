@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rate Limiter Visualiser</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Rate Limiter Visualiser</h1>
+
+        <div class="card">
+
+            <button id="requestBtn">
+                Send Request
+            </button>
+
+            <div class="status">
+
+                <p>
+                    Status:
+                    <span id="statusText">Idle</span>
+                </p>
+
+                <p>
+                    Tokens Remaining:
+                    <span id="tokensText">-</span>
+                </p>
+
+                <p>
+                    Retry After:
+                    <span id="retryText">-</span>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="log-container">
+
+            <h2>Request Log</h2>
+
+            <ul id="logList">
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
