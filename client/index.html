@@ -3,30 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Rate Limiter Visualiser</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <div class="container">
-
         <h1>Rate Limiter Visualiser</h1>
-
         <div class="card">
-
             <button id="requestBtn">
                 Send Request
             </button>
-
             <div class="status">
-
                 <p>
                     Status:
                     <span id="statusText">Idle</span>
                 </p>
-
                 <p>
                     Tokens Remaining:
                     <span id="tokensText">-</span>
@@ -36,25 +29,17 @@
                     Retry After:
                     <span id="retryText">-</span>
                 </p>
-
             </div>
-
         </div>
 
+        <!-- FOR THE LOGS -->
         <div class="log-container">
-
             <h2>Request Log</h2>
-
             <ul id="logList">
             </ul>
-
         </div>
-
     </div>
 
     <script src="script.js"></script>
-
 </body>
-
 </html>
-
