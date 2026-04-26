@@ -1,15 +1,15 @@
 {
   "name": "rate-limiter-visualiser",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight, pluggable rate limiting middleware for Express — built on the Sliding Window algorithm ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server/server.js",
     "start": "node server/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["rate-limiting", "express", "middleware", "Sliding Window Algorithm"],
+  "author": "Gideon Onyegbula",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
