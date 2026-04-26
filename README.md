@@ -1,4 +1,4 @@
-# rate-limiter
+# Rate-limiter
 
 A lightweight, pluggable rate limiting middleware for Express — built on the **Sliding Window** algorithm with an in-memory store. Designed to be dropped into any Express app with one line, and extended with other algorithms as your needs grow.
 
